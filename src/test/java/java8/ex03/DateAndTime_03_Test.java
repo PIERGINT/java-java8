@@ -17,12 +17,12 @@ public class DateAndTime_03_Test {
     public void test_localTime_of() {
 
         // TODO créer un objet LocalTime à l'heure 15h24m02s
-        LocalTime result = null;
+        LocalTime result = LocalTime.of(15, 24, 02);
 
         // TODO valoriser les différentes variables afin de rendre le test passant
-        int hour = 0;
-        int minutes = 0;
-        int second = 0;
+        int hour = 15;
+        int minutes = 24;
+        int second = 02;
 
         assertThat(hour, is(15));
         assertThat(minutes, is(24));
